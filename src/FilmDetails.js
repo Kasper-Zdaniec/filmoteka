@@ -18,7 +18,6 @@ const FilmDetails = () => {
             {isPending && <div>Ładowanie informacji o filmie...</div>}
             {data && <div className="film-list">
                 <h2>{data.title}</h2>
-                <h3>Coś<h3/>
                 <p>{data.description}</p>
                 <button onClick={handleClick}>Usuń film</button>
             </div>
