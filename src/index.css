@@ -1,0 +1,86 @@
+* {
+  padding: 0px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+}
+.navbar h1 {
+  color: darkred;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar :hover {
+  color: darkred;
+}
+
+.films {
+  padding:20px;
+}
+
+.film-item {
+  display: inline;
+  padding: 5px;
+}
+
+.film-item img{
+  border-radius: 10px;
+  width: 30%;
+  height: 100px;
+  object-fit:cover;
+}
+
+.new-film {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 30%;
+  padding:10px 10px;
+}
+
+.new-film label{
+  text-align: left;
+  display:block;
+  margin: 0 auto;
+  padding:10px 10px;
+}
+
+.new-film input, .new-film textarea {
+  display:block;
+  text-align: center;
+  margin:10px 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding:10px 10px;
+}
+
+.new-film button {
+  background: darkred;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor:grab;
+  font-size: 20px;
+  transition: all 1s;
+  margin: 20px;
+}
+
+.new-film button:hover{
+  background: red;
+}
+
+
+

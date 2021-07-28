@@ -1,0 +1,22 @@
+{
+  "films": [
+    {
+      "title": "Na rauszu",
+      "photoUrl": "https://i.ytimg.com/vi/reetjA0zxtg/maxresdefault.jpg",
+      "description": "Czwórka nauczycieli pracujących w gimnazjum testuje alkoholową metodę, która ma polepszyć jakość ich życia.",
+      "id": 3
+    },
+    {
+      "title": "Interstellar",
+      "description": "Byt ludzkości na Ziemi dobiega końca wskutek zmian klimatycznych. Grupa naukowców odkrywa tunel czasoprzestrzenny, który umożliwia poszukiwanie nowego domu.",
+      "photoUrl": "https://cdn-2.cdp.pl/media/catalog/product/i/n/interstellar_dvd_2d.jpg",
+      "id": 6
+    },
+    {
+      "title": "Shrek",
+      "description": "By odzyskać swój dom, brzydki ogr z gadatliwym osłem wyruszają uwolnić piękną księżniczkę.",
+      "photoUrl": "https://ecsmedia.pl/c/shrek-w-iext70654190.jpg",
+      "id": 7
+    }
+  ]
+}
